@@ -32,7 +32,7 @@ function Stats() {
           <img src="ecosystem.png" style={{ width: "90%" }} />
           <div className="text-center">
             <a href="" className="mx-5" style={{ textDecoration: "none" }}>
-              Explore our products{" "}
+              Explore our products{" "}➡
             </a>
             <a href="" style={{ textDecoration: "none" }}>
               Try Kite demo{" "}
