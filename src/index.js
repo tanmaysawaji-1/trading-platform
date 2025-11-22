@@ -10,7 +10,7 @@ import ProductPage from "./landingpage/products/Universe";
 import PricingPage from "./landingpage/pricing/PricingPage";
 import SupportPage from "./landingpage/support/SupportPage";
 
-
+import NotFound from "./landingpage/NotFound";
 import Navbar from "./landingpage/Navbar";
 import Footer from "./landingpage/Footer";
 
@@ -25,6 +25,7 @@ root.render(
       <Route path="/product" element={<ProductPage />} />
       <Route path="/pricing" element={<PricingPage />} />
       <Route path="/support" element={<SupportPage />} />
+      <Route path="*" element={<NotFound />} />
     </Routes>
     <Footer />
   </BrowserRouter>
